@@ -21,7 +21,7 @@ const UIStrings = {
   /** Description of a Lighthouse audit that tells the user *why* they should try to pass. This is displayed after a user expands the section to see more. No character length limits. 'Learn More' becomes link text to additional documentation. */
   description: 'Link text (and alternate text for images, when used as links) that is ' +
       'discernible, unique, and focusable improves the navigation experience for ' +
-      'screen reader users. ' +
+      'screen reader users. Alternately a description inside the `aria-label` attribute can be used too.' +
       '[Learn more](https://web.dev/link-name/).',
 };
 
